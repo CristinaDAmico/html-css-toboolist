@@ -13,6 +13,7 @@ body{
 header{
     background-color: white;
     padding: 10px 20px;
+    margin-bottom: 50px;
 }
 
 .logo{
@@ -23,3 +24,36 @@ header{
     font-size: 40px;
     font-weight: 700;
 }
+
+/* style container  */
+.container{
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+}
+
+/* style nav */
+nav{
+    width: 100%;
+    padding: 30px 60px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button.one {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.button.two{
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+}
+
+
