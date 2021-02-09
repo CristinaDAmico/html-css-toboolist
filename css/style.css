@@ -28,7 +28,6 @@ header{
 /* style container  */
 .container{
     width: 80%;
-    height: 500px;
     background-color: white;
     margin: auto;
 }
@@ -55,5 +54,77 @@ nav{
     color: lightgrey;
     border: 1px solid lightgrey;
 }
+
+/* list style */
+ul{
+    padding: 30px 60px;
+}
+
+li{
+    color: rgba(0, 0, 0, 0.75)
+}
+
+.list-item{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.list-item.one{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.icona{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.check{
+    color: green;
+    border: 1px solid green;
+}
+
+.remove{
+    color: red;
+    border: 1px solid red;
+}
+
+/* style etichette */
+.etichetta{
+    color: white;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 8px;
+}
+
+.etichetta.blu{
+    background-color: dodgerblue;
+}
+
+.etichetta.viola{
+    background-color: rgb(192, 31, 192);
+}
+
+.etichetta.verde{
+    background-color: rgb(87, 175, 87);
+}
+
+.etichetta.arancione{
+    background-color: rgb(240, 182, 74);
+}
+
+.etichetta.rosa{
+    background-color: orchid;
+}
+
+.etichetta.gialla{
+    background-color: rgb(238, 238, 64);
+}
+
 
 
